@@ -1,0 +1,93 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 24px;
+  border-bottom: 1px solid #ccc;
+  background: white;
+}
+
+.navbar h2 {
+  margin: 0;
+}
+
+.nav-links {
+  display: flex;
+  gap: 16px;
+}
+
+.nav-links a,
+.details-link {
+  color: #333;
+  text-decoration: none;
+}
+
+.nav-links a:hover,
+.details-link:hover {
+  text-decoration: underline;
+}
+
+.page {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.summary-cards,
+.bike-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.summary-card,
+.bike-card {
+  flex: 1;
+  min-width: 220px;
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background: white;
+}
+
+.summary-card {
+  text-align: center;
+}
+
+.status {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.available {
+  background: #d9f4d9;
+  color: #176317;
+}
+
+.maintenance {
+  background: #f7dddd;
+  color: #942222;
+}
+
+.card-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+
+.maintenance-text {
+  color: #942222;
+  font-weight: bold;
+}
+
+.details-page {
+  max-width: 600px;
+}
+
