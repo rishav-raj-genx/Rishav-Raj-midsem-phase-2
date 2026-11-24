@@ -3,7 +3,7 @@ import { Routes, Route } from 'react-router'
 import Navbar from './components/Navbar.jsx'
 import Home from './pages/Home.jsx'
 import Bikes from './pages/Bikes.jsx'
-import BikeDetails from './pages/BikeDetails.jsx'
+import Details from './pages/Details.jsx'
 import Rented from './pages/Rented.jsx'
 import { bikesData } from './data/bikes.js'
 import './App.css'
@@ -45,7 +45,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home bikeList={bikes} />} />
           <Route path="/bikes" element={<Bikes bikeList={bikes} changeRentStatus={changeRentStatus} />} />
-          <Route path="/bikes/:id" element={<BikeDetails bikeList={bikes} changeRentStatus={changeRentStatus} />} />
+          <Route path="/bikes/:id" element={<Details bikeList={bikes} changeRentStatus={changeRentStatus} />} />
           <Route path="/rented" element={<Rented bikeList={bikes} changeRentStatus={changeRentStatus} />} />
         </Routes>
       </main>

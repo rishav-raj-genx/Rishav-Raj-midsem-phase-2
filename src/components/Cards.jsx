@@ -1,6 +1,6 @@
 import { Link } from 'react-router'
 
-function BikeCard(props) {
+function Cards(props) {
   const bike = props.bike
   let engineText = bike.engineCC + ' cc'
 
@@ -33,4 +33,4 @@ function BikeCard(props) {
   )
 }
 
-export default BikeCard
+export default Cards

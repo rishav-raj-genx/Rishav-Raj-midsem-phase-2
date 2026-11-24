@@ -1,90 +1,12 @@
-export const bikesData = [
-  {
-    id: 1,
-    name: "Honda Activa",
-    brand: "Honda",
-    type: "Scooter",
-    pricePerHour: 50,
-    location: "College Gate",
-    isAvailable: true,
-    isRented: false,
-    engineCC: 110
-  },
-  {
-    id: 2,
-    name: "TVS Jupiter",
-    brand: "TVS",
-    type: "Scooter",
-    pricePerHour: 45,
-    location: "Railway Station",
-    isAvailable: true,
-    isRented: false,
-    engineCC: 110
-  },
-  {
-    id: 3,
-    name: "Yamaha R15",
-    brand: "Yamaha",
-    type: "Bike",
-    pricePerHour: 90,
-    location: "City Center",
-    isAvailable: true,
-    isRented: false,
-    engineCC: 150
-  },
-  {
-    id: 4,
-    name: "Royal Enfield Classic",
-    brand: "Royal Enfield",
-    type: "Bike",
-    pricePerHour: 120,
-    location: "Bus Stand",
-    isAvailable: false,
-    isRented: false,
-    engineCC: 350
-  },
-  {
-    id: 5,
-    name: "Ather 450X",
-    brand: "Ather",
-    type: "Electric",
-    pricePerHour: 70,
-    location: "Mall Road",
-    isAvailable: true,
-    isRented: false,
-    engineCC: 0
-  },
-  {
-    id: 6,
-    name: "OLA S1",
-    brand: "OLA",
-    type: "Electric",
-    pricePerHour: 65,
-    location: "Park Gate",
-    isAvailable: true,
-    isRented: false,
-    engineCC: 0
-  },
-  {
-    id: 7,
-    name: "Hero Splendor",
-    brand: "Hero",
-    type: "Bike",
-    pricePerHour: 55,
-    location: "Library Road",
-    isAvailable: true,
-    isRented: false,
-    engineCC: 100
-  },
-  {
-    id: 8,
-    name: "Bajaj Pulsar",
-    brand: "Bajaj",
-    type: "Bike",
-    pricePerHour: 80,
-    location: "Market Area",
-    isAvailable: false,
-    isRented: false,
-    engineCC: 150
-  }
+export const bikesData =  [
+  { id: 1, name: "Activa 6G", brand: "Honda", type: "Scooter", pricePerHour: 60, engineCC: 110, mileage: "50 km/l", location: "Indirapuram", isAvailable: true, isRented: false },
+  { id: 2, name: "Pulsar 150", brand: "Bajaj", type: "Bike", pricePerHour: 90, engineCC: 150, mileage: "45 km/l", location: "Raj Nagar", isAvailable: true, isRented: false },
+  { id: 3, name: "Ather 450X", brand: "Ather", type: "Electric", pricePerHour: 80, engineCC: 0, mileage: "110 km/charge", location: "Vaishali", isAvailable: false, isRented: false },
+  { id: 4, name: "Classic 350", brand: "Royal Enfield", type: "Bike", pricePerHour: 150, engineCC: 349, mileage: "35 km/l", location: "Indirapuram", isAvailable: true, isRented: false },
+  { id: 5, name: "Jupiter", brand: "TVS", type: "Scooter", pricePerHour: 55, engineCC: 110, mileage: "48 km/l", location: "Kaushambi", isAvailable: true, isRented: false },
+  { id: 6, name: "iQube", brand: "TVS", type: "Electric", pricePerHour: 70, engineCC: 0, mileage: "100 km/charge", location: "Raj Nagar", isAvailable: true, isRented: false },
+  { id: 7, name: "Duke 200", brand: "KTM", type: "Bike", pricePerHour: 180, engineCC: 199, mileage: "33 km/l", location: "Vaishali", isAvailable: false, isRented: false },
+  { id: 8, name: "Access 125", brand: "Suzuki", type: "Scooter", pricePerHour: 65, engineCC: 124, mileage: "45 km/l", location: "Kaushambi", isAvailable: true, isRented: false },
+  { id: 9, name: "Chetak", brand: "Bajaj", type: "Electric", pricePerHour: 75, engineCC: 0, mileage: "108 km/charge", location: "Indirapuram", isAvailable: true, isRented: false },
+  { id: 10, name: "Splendor Plus", brand: "Hero", type: "Bike", pricePerHour: 50, engineCC: 97, mileage: "70 km/l", location: "Raj Nagar", isAvailable: true, isRented: false },
 ]

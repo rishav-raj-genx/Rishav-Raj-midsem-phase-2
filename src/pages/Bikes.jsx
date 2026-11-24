@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import BikeCard from '../components/BikeCard.jsx'
+import Cards from '../components/Cards.jsx'
 
 function Bikes(props) {
   const [selectedType, setSelectedType] = useState('All')
@@ -30,7 +30,7 @@ function Bikes(props) {
       </label>
       <div className="bike-list">
         {filteredBikes.map((bike) => (
-          <BikeCard key={bike.id} bike={bike} changeRentStatus={props.changeRentStatus} />
+          <Cards key={bike.id} bike={bike} changeRentStatus={props.changeRentStatus} />
         ))}
       </div>
     </div>

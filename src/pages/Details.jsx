@@ -1,6 +1,6 @@
 import { useParams } from 'react-router'
 
-function BikeDetails(props) {
+function Details(props) {
   const { id } = useParams()
   let bike = null
 
@@ -40,4 +40,4 @@ function BikeDetails(props) {
   )
 }
 
-export default BikeDetails
+export default Details
